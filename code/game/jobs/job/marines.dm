@@ -49,7 +49,7 @@ What you lack alone, you gain standing shoulder to shoulder with the men and wom
 //Squad Engineer
 /datum/job/marine/engineer
 	title = "Squad Engineer"
-	paygrade = "E4"
+	paygrade = "E3"
 	comm_title = "Eng"
 	spawn_positions = 12
 	total_positions = 12
@@ -78,9 +78,9 @@ Your squaddies will look to you when it comes to construction in the field of ba
 
 //Squad Medic
 /datum/job/marine/medic
-	title = "Squad Medic"
-	paygrade = "E4"
-	comm_title = "Med"
+	title = "Squad Corpsman"
+	paygrade = "E3"
+	comm_title = "Corp"
 	spawn_positions = 16
 	total_positions = 16
 	flag = SQUAD_MEDIC
@@ -99,7 +99,7 @@ You may not be a fully-fledged doctor, but you stand between life and death when
 
 
 /datum/outfit/job/marine/medic
-	name = "Squad Medic"
+	name = "Squad Corpsman"
 	jobtype = /datum/job/marine/medic
 
 	id = /obj/item/card/id/dogtag
@@ -109,7 +109,7 @@ You may not be a fully-fledged doctor, but you stand between life and death when
 //Squad Smartgunner
 /datum/job/marine/smartgunner
 	title = "Squad Smartgunner"
-	paygrade = "E3"
+	paygrade = "E4"
 	comm_title = "Sgn"
 	flag = SQUAD_SMARTGUNNER
 	prefflag = PREF_JOB_SQSMARTGUNNER
